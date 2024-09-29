@@ -81,6 +81,9 @@ nixpkgs.config.allowUnfree = true;
 	cowsay
 	tshark
 	discord
+	libgcc
+	libgccjit
+	gnat14
 	google-cloud-sdk
 	teams-for-linux
 	jetbrains.idea-community
