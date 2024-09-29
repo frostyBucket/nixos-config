@@ -97,6 +97,7 @@ nixpkgs.config.allowUnfree = true;
 	git
 	firebase-tools
 	jdk22
+	jetbrains.idea-community-src
 	typescript
 	rustc
 	nodejs_22
