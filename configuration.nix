@@ -77,6 +77,9 @@ nixpkgs.config.allowUnfree = true;
      wget
 	neovim
 	brave
+	neofetch
+	freshfetch
+	ipfetch
 	httpie-desktop
 	cowsay
 	tshark
@@ -85,6 +88,7 @@ nixpkgs.config.allowUnfree = true;
 	libgccjit
 	gnat14
 	google-cloud-sdk
+	git-credential-manager
 	teams-for-linux
 	jetbrains.idea-community
 	kicad
