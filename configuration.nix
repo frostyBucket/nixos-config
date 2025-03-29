@@ -72,41 +72,70 @@ nixpkgs.config.allowUnfree = true;
 
   # List packages installed in system profile. To search, run:
   # $ nix search wget
+
+ # programs.nix-ld.enable = true;
+ # programs.nix-ld.ibraries = with pkgs; [
+#		jdks/openjdk-23.0.2/bin/java
+#	];
+
    environment.systemPackages = with pkgs; [
      vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
      wget
 	neovim
 	brave
+	python312Packages.pandas
 	neofetch
-	freshfetch
 	ipfetch
+	zoom-us
+	cargo
+	python3
+	rustup
+	xorg.xf86videoxgi
+	tor-browser
+	cargo-auditable-cargo-wrapper
 	httpie-desktop
+	inetutils
+	dropbox
 	cowsay
 	tshark
 	discord
 	libgcc
 	libgccjit
 	gnat14
+	wineWowPackages.wayland
 	google-cloud-sdk
 	git-credential-manager
 	teams-for-linux
+	lynx
 	jetbrains.idea-community
+	nmap
 	kicad
+	twitterBootstrap
 	haskellPackages.disassembler
 	stripe-cli
+	spotify
+	spotifyd
 	android-tools
+	gccgo
 	vscode
 	unzip
+	pgadmin4
+	pgadmin4-desktopmode
+	arduino-ide
 	usbutils
 	git
 	firebase-tools
-	jdk22
 	jetbrains.idea-community-src
 	typescript
 	rustc
+	zip
+	gradle
+	gpp
+	maven
 	nodejs_22
 	bash
 	libreoffice-qt6-still
+	openjdk
    ];
 
 
