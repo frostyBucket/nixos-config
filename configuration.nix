@@ -22,6 +22,7 @@
 #  Set your time zone.
   time.timeZone = "America/Chicago";
 
+
   # Configure network proxy if necessary
   # nproxy.default = "http://user:password@proxy:port/";
   # networking.proxy.noProxy = "127.0.0.1,localhost,internal.domain";
@@ -43,9 +44,9 @@
 			lightdm.enable = true;
 	};
 	desktopManager.xfce.enable = true;
-	windowManager.bspwm.enable = true;
+	windowManager.i3.enable = true;
 };	
-	displayManager.defaultSession = "xfce";	
+	displayManager.defaultSession = "none+i3";	
 };	
 
 nixpkgs.config.allowUnfree = true;
@@ -86,6 +87,7 @@ nixpkgs.config.allowUnfree = true;
 	python312Packages.pandas
 	neofetch
 	ipfetch
+	i3
 	zoom-us
 	cargo
 	python3
@@ -136,6 +138,7 @@ nixpkgs.config.allowUnfree = true;
 	bash
 	libreoffice-qt6-still
 	openjdk
+	feh
    ];
 
 
